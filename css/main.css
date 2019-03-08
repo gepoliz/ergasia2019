@@ -79,7 +79,7 @@ nav ul li a:hover{
   margin: 0 auto;
 }
 
-.whitecontainer li{
+.whitecontainer li,.whitecontainer .shadow-container{
   padding: 6em;
   margin top: 0;
   margin-bottom: 0;
