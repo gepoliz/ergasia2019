@@ -2,7 +2,7 @@
 
 body {
     margin: 0;
-    background-color: #c2c7c9; 
+    background-color: #fff; 
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -47,6 +47,17 @@ nav ul li a:hover{
   
 }
 
+.flex{
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-vert{
+  display: flex;
+  flex-direction: column;
+  padding: 0 40px;
+}
+
 .images{
   max-width: 150px ;
   height: 150px;
@@ -63,16 +74,20 @@ nav ul li a:hover{
   float: right;
 }
 
-.whitecontainer p{
-  text-align: right;
-  padding: 0 8em;
-  margin:10% 5% 0 0;
- 
-
+.whitecontainer {
+  max-width: 1280px  ;
+  margin: 0 auto;
 }
 
 .whitecontainer li{
   padding: 6em;
+  margin top: 0;
+  margin-bottom: 0;
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  margin-bottom: 30px ; 
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1)
 }
 
 footer{
