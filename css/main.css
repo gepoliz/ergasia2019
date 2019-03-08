@@ -47,6 +47,33 @@ nav ul li a:hover{
   
 }
 
+.images{
+  max-width: 150px ;
+  height: 150px;
+  border-radius: 50% ;
+  vertical-align: baseline;
+  
+}
+
+.images1{
+  max-width: 150px;
+  height: 150px;
+  border-radius: 10%;
+  vertical-align: baseline;
+  float: right;
+}
+
+.whitecontainer p{
+  text-align: right;
+  padding: 0 8em;
+  margin:10% 5% 0 0;
+ 
+
+}
+
+.whitecontainer li{
+  padding: 6em;
+}
 
 footer{
   padding-top: 30%;
